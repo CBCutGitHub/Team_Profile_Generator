@@ -54,6 +54,8 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
  **Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
 
+## Additional support directories/files:
+
 ├── dist/                  // rendered output (HTML) and CSS style sheet      
 ├── lib/                   // classes
 ├── src/                   // template helper code 
