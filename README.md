@@ -4,11 +4,6 @@
 
 This application is a Node.js command-line driven application that takes user input of basic information about employees on a software engineering team. An HTML webpage that displays summaries for each person is then generated. That information provides a manager with a quick access to their employee's emails and GitHub profiles.
 
-## User Input of Basic Information
-
-This is an image of prompted response to enter basic information from the user:
-![User_Info_Input_TPG](https://user-images.githubusercontent.com/95545346/156264139-960c3cd6-7968-48f9-9610-569d289c1acb.PNG)
-
 ## Initiate Unit Testing
 
 In order to make sure the code is maintainable, it is imperative that testing is rigorously performed on each of the classes. Each class must pass the testing beginning with the parent class, Employee, to ensure successful application functionality. The application utilizes [Jest](https://www.npmjs.com/package/jest) to run the unit tests.
@@ -30,7 +25,11 @@ Results of the testing is returned and should be confirmed that each test passed
 
 The application utilizes [Inquirer](https://www.npmjs.com/package/inquirer) for the purpose of collecting input from the user. The application is invoked by using the following command: node index.js.
 
-At start of the application:
+## At start of the application## User Input of Basic Information
+
+This is an image of prompted response to enter basic information from the user:
+![User_Info_Input_TPG](https://user-images.githubusercontent.com/95545346/156264139-960c3cd6-7968-48f9-9610-569d289c1acb.PNG)
+
 
 ** user is prompted to enter the team manager’s name, employee ID, email address, and office number.
 
