@@ -13,9 +13,11 @@ const render = require('./src/page-template.js');
 const teamMembers = [];
 
 
-
-
 function runApp() {
+
+    // specific property notation: Manger has office number, engineer has github and intern has school
+
+    // Adding Manager and properties
 
   function addManager() {
     inquirer.prompt([
@@ -45,10 +47,10 @@ function runApp() {
 
       console.log(teamMembers)
 
-     addMembers()
+      addMembers()
     })
   }
-  // Attempting to add others
+  // Adding Engineer and properties
 
   function addEngineer() {
     inquirer.prompt([
@@ -73,16 +75,18 @@ function runApp() {
         message: "What is the engineer's github?"
       }
       
+    // Not required: ADD VALIDATION ON THE EMAIL FORMAT INPUT
+
     ]).then(response => {
       var newEngineerInstance = new Engineer(response.engineer_name, response.engineer_id, response.engineer_email, response.engineer_github)
       teamMembers.push(newEngineerInstance)
-
-      //ends testing add others, remove officenumber ref, changed var instances from manager to engineer
-
+      
 
       console.log(teamMembers)
       addMembers()
     })
+
+      // Adding Intern and properties
   }
     function addIntern() {
       inquirer.prompt([
@@ -101,23 +105,23 @@ function runApp() {
           name: "intern_email",
           message: "What is the intern's email?"
         },
-         {
-           type: "input",
-           name: "intern_school",
-           message: "What school in the intern attending?"
-                   } 
+        {
+          type: "input",
+          name: "intern_school",
+          message: "What school is the intern attending?"
+        } 
       ]).then(response => {
         var newInternInstance = new Intern(response.intern_name, response.intern_id, response.intern_email, response.intern_school)
         teamMembers.push(newInternInstance)
   
-        //ends testing add others, remove officenumber ref, changed var instances from manager to engineer
-  
-    
+        //end testing, add members, remove officenumber ref, changed var instances from manager to engineer
+
         console.log(teamMembers)
         addMembers()
     })
       }
 
+       //Add members to the team and select roles
 
   function addMembers() {
     inquirer.prompt([
@@ -141,7 +145,7 @@ function runApp() {
       }
     })}
   
-
+     // List the team members and their information
   
   function buildTeam() {
 console.log("Your Team Profile has been built.")
