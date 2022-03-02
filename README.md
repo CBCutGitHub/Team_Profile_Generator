@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Team Profile Generator
 
 ## Application
@@ -68,4 +66,4 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
->>>>>>> 1cc54903d146835afb1327473f67493efc09924c
+
