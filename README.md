@@ -19,21 +19,22 @@ Initiate testing by entering command> npm run test for the following classes :
 ## Unit Testing Results
 
 Results of the testing is returned and should be confirmed that each test passed as shown below: 
+
 ![TestTPG](https://user-images.githubusercontent.com/95545346/156263648-4b4c46cb-d95f-41fd-9ef5-9a2ac66b73f0.PNG)
 
-## Invoke Application![TeamRosterTPG]
+## Invoke Application!
 
 The application utilizes [Inquirer](https://www.npmjs.com/package/inquirer) for the purpose of collecting input from the user. The application is invoked by using the following command: node index.js.
 
-## At start of the application## User Input of Basic Information
+## User Input of Basic Information
 
-This is an image of prompted response to enter basic information from the user:
+At start of the application, this is an image of prompted response to enter basic information from the user:
+
 ![User_Info_Input_TPG](https://user-images.githubusercontent.com/95545346/156264139-960c3cd6-7968-48f9-9610-569d289c1acb.PNG)
-
 
 ** user is prompted to enter the team manager’s name, employee ID, email address, and office number.
 
-** user is presented a menu with the options to:
+** user is presented a menu (navigated using the up/down arrow keys) with the options to:
   1. add an engineer with properties and methods of name, id, email, github 
   2. add an intern with properties and methods of name, id, email, school
   3. add a manager (if needed) with properties of name, id, email, officeNumber
@@ -41,13 +42,14 @@ This is an image of prompted response to enter basic information from the user:
 
 ** user select option to add and follows the prompts to input requested information
 ** user is then taken back to the menu to add or finish
-** user selects to finish building team by selecting "none" in which the application will exit and HTML is generated as shown below:
+** user selects to finish building team by selecting "none" in which the application will display a the message "Your team has been built", prior to exiting and producing the HTML as shown below:
 
 The following link to project on github: https://github.com/CBCutGitHub/Team_Profile_Generator
 
 ## Generated HTML
 
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
+The following image shows the generated HTML of a webservices and database team base on the user's input in building the team:
+
 ![TeamRosterTPG](https://user-images.githubusercontent.com/95545346/156263476-020c6fee-eca0-48cd-bfa6-dc4e966c88b4.PNG)
 
 
