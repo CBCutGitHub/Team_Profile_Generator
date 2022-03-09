@@ -101,7 +101,7 @@ module.exports = team => {
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 jumbotron mb-3 team-heading">
-                <h1 class="text-center">My EXPERT Team</h1>
+                <h1 class="text-center">Webservices and Database Team</h1>
             </div>
         </div>
     </div>
