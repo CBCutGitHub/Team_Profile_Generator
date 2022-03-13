@@ -51,7 +51,13 @@ The following image shows the generated HTML of a Webservices and Database Team 
 
 ![TeamRosterTPG](https://user-images.githubusercontent.com/95545346/156263476-020c6fee-eca0-48cd-bfa6-dc4e966c88b4.PNG)
 
-## Links, References and Resources 
+## Webservices and Database Team Profile Generator Video 
+
+Click on video link https://drive.google.com/file/d/1LRxe3qDErFTDRRWkPNvsoJvfVB7cto0O/view
+
+
+## Links, References and Resources
+
 Link to project on github: https://github.com/CBCutGitHub/Team_Profile_Generator
 
 W3schools https://www.w3schools.com
